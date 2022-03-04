@@ -1,0 +1,19 @@
+<spacex-header-section>
+  <spacex-navigation navigation>
+    <spacex-logo></spacex-logo>
+    <spacex-button>LOGIN</spacex-button>
+  </spacex-navigation>
+  <spacex-input>
+    <spacex-button>
+      <ng-container *ngFor="let word of ['J', 'O', 'I', 'N']">
+         <span>{{ word }}</span>
+      </ng-container>
+      <spacex-arrow></spacex-arrow>
+    </spacex-button>
+  </spacex-input>
+</spacex-header-section>  
+
+<spacex-section [order]="0">SECTION 3</spacex-section>  
+<spacex-section [order]="1">SECTION 1</spacex-section>  
+<spacex-section [order]="0">SECTION 2</spacex-section>  
+<spacex-section [order]="1">SECTION 2</spacex-section>  
